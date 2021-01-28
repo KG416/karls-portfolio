@@ -1,12 +1,15 @@
-import './App.css';
+import BackBtn from './BackBtn.js';
 
 const Contacts = () => {
     return(
+        <>
+        <BackBtn />
         <ul className="contact-wrap">
         <li>Karl Gunnarsson</li>
         <li>Email: xxx</li>
         <li>GitHub: xxx</li> 
         </ul>
+        </>
     )
 }
 

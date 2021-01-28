@@ -14,4 +14,8 @@
 
 - Publish to get URL (surge or something...)
 
-- Upload to GitHub to save steps via commits.
+<!-- ============================== -->
+<!-- ========== OPTIONAL ========== -->
+<!-- ============================== -->
+
+- Implement Styled Components instead of using App.css

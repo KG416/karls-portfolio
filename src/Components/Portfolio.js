@@ -1,5 +1,3 @@
-import './App.css';
-
 const Portfolio = () => {
     return(
         <ul className="portfolio">

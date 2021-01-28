@@ -1,14 +1,12 @@
-import './App.css';
-import logo from './img/karl-logo-v3.jpg';
+
 import { Link } from 'react-router-dom';
 
-const Nav = () => {
+const Nav = (props) => {
     
-
     return(
         <nav className="main-nav">
             <Link to="/">
-            <img className="karl-logo" src={logo} alt="Karls logo" />
+            <img className="karl-logo" src={props.logo} alt="Karls logo" />
             </Link>
 
             <div className="nav-btn-wrapper">

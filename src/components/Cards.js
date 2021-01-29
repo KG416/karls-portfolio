@@ -1,38 +1,29 @@
-import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
 function Cards() {
   return (
-
     <div className='cards'>
       <h1>Projekt jag skapat.</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
 
-            {/*
-            LÄNK TILL QUIRE! 
-            <a href="http://gutenberg-quire.surge.sh/">Länk till Quire!</a> 
-            */}
-
             <CardItem
-              src='images/img-9.jpg'
-              text='Quire! by Gutenberg.'
+              src='/images-public/quire-tr6.jpg'
+              text='En simpel sida för att skapa, redigera och spara anteckningar. Gjord med några klasskompisar från kyh.'
               label='HTML, CSS, JavaScript, Figma'
-              path='/services'
             />
 
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src='/images-public/aCaps4.jpg'
+              text='Se till att ha vässat quiz-kunskaperna om den efterlängtade "På Spåret-förfrågan" skulle dyka upp.'
+              label='HTML, CSS, JavaScript'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
+              src='/images-public/img-3.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Mystery'
               path='/services'

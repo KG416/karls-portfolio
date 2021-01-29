@@ -12,6 +12,7 @@ https://github.com/briancodex/react-website-v1/tree/starter
 <!-- ===================================================================================================================== -->
 
 ## Project ToDo
+- Gör klart aCaps, surga och länka från denna sida.
 - Addera tema = Shades of svart/grå + orange
 - Ändra copy i:
 - - components/pages

@@ -31,7 +31,16 @@ video {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
-
+h2 {
+  color: white;
+  font-size: 45px;
+}
+.karl-face {
+  height: 220px;
+  width: 255px;
+  border-radius: 8px;
+  margin: 10px;
+}
 .hero-btns {
   margin-top: 32px;
 }

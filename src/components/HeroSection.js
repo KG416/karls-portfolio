@@ -1,15 +1,16 @@
 import '../App.css';
-import { Button } from './Button';
+/* import { Button } from './Button'; */
 import './HeroSection.css';
 
 function HeroSection() {
     return (
         <div className='hero-container'>
             <video src='/videos/video-1.mp4' autoPlay loop muted />
+            {/* <img className="karl-sv" src="/images-public/karlSvartvit.jpg" alt="" /> */}
             <h1>Front end-utvecklare</h1>
-            <p>och kreatör.</p>
+            <h2>och kreatör.</h2>
+            <img src="/images-public/bass-filter.JPG" alt="Karl" className="karl-face" />
 
-            <img src="src/images/bass-filter.JPG" alt="" />
 
 
             {/*   <div className='hero-btns'>

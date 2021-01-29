@@ -12,10 +12,13 @@ https://github.com/briancodex/react-website-v1/tree/starter
 <!-- ===================================================================================================================== -->
 
 ## Project ToDo
-
-- Byt font
-- Inte bold på nav-bar items
 - Addera tema = Shades of svart/grå + orange
+- Ändra copy i:
+- - components/pages
+- - Cards, CardItem
+
+### Rensa CSS
+- Se notion-dokument
 
 ### Mail form
 När man trycker på MAILA MIG ska man komma till form med dessa inputs:

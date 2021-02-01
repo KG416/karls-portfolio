@@ -33,7 +33,16 @@ video {
 }
 h2 {
   color: white;
-  font-size: 45px;
+  font-size: 60px;
+}
+.hero-pres {
+  font-size: 35px;
+  max-width: 50vw;
+  margin: 50px;
+  text-align: center;
+}
+.hero-pres2 {
+  font-size: 24px;
 }
 .karl-face {
   height: 220px;
@@ -58,6 +67,18 @@ h2 {
     font-size: 70px;
     margin-top: -150px;
   }
+  h2 {
+    font-size: 36px;
+  }
+  .hero-pres {
+    font-size: 26px;
+  max-width: 90vw;
+}
+.hero-pres2 {
+  font-size: 20px;
+  max-width: 90vw;
+  text-align: center;
+}
 }
 
 @media screen and (max-width: 768px) {

@@ -1,0 +1,18 @@
+.pres-container {
+display: flex;
+flex-flow: column;
+align-items: center;
+width: 100vw;
+margin: 30px;
+position: absolute;
+}
+
+.pres-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 35px;
+    margin: 20px;
+}

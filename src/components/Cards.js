@@ -3,7 +3,7 @@ import CardItem from './CardItem';
 
 function Cards() {
   return (
-    <div className='cards'>
+    <div className='cards' id='cards-id'>
       <h1 className='cards-h1'>Projekt jag skapat.</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>

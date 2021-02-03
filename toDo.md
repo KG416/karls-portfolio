@@ -4,9 +4,7 @@ Brian Design
 ### YT-video
 https://www.youtube.com/watch?v=I2UBjN5ER4s
 
-Left off 45:18
-
-### Source code
+### Tutorial source code
 https://github.com/briancodex/react-website-v1/tree/starter
 
 <!-- ===================================================================================================================== -->
@@ -18,7 +16,7 @@ https://github.com/briancodex/react-website-v1/tree/starter
 - - components/pages
 - - Cards, CardItem
 
-### Rensa CSS
+### Rensa CSS + Bildmapparna
 - Se notion-dokument
 
 ### Mail form

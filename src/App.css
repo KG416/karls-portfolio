@@ -6,24 +6,27 @@
 }
 
 .home,
-.contact,
+.contact-container,
 .products,
 .email-me {
   display: flex;
   flex-direction: column;
   margin-left: 30vw;
   margin-right: 30vw;
-  height: 90vh;
+  height: 92vh;
   align-items: center;
   font-size: 3rem;
 }
-.contact * {
+.contact-master {
+  background-image: url('./images/phone-happy-v5.2-filter.jpg');
+  /* background-image: url('./images/phone-happy-v3.jpg'); */
+   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact-container * {
    color: black;
    text-decoration: none;
-}
-.mailh1 {
-  font-size: 120px;
-  margin-bottom: 100px;
 }
 .contact-wrap {
   margin-bottom: 40px;
@@ -36,11 +39,15 @@
   justify-content: center;
 }
 .contact-wrap:hover {
-  background-color: rgb(232, 232, 232);
+  background-color: rgb(255, 255, 255);
 }
 .contact-wrap > * {
   display: flex;
   align-items: center;
+}
+.mailh1 {
+  font-size: 120px;
+  margin-bottom: 100px;
 }
 .mailh2 {
   font-size: 50px;
@@ -51,9 +58,9 @@
 .contact-para {
   font-size: 30px;
 }
-.contact-para:hover {
+/* .contact-para:hover {
   background-color: white;
-}
+} */
 .contactIcon {
   color: white;
   font-size: 50px;

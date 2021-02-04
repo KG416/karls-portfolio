@@ -10,23 +10,22 @@ https://github.com/briancodex/react-website-v1/tree/starter
 <!-- ===================================================================================================================== -->
 
 ## Project ToDo
+- Skriv klart redogörelsen
+- Gör mail-me responsiv
+
 - Gör klart aCaps, surga och länka från denna sida.
-- Addera tema = Shades of svart/grå + orange
-- Ändra copy i:
+- Surga Simple Local Storage och länka från denna sida.
+
+- Ändra copy/innehåll i:
 - - components/pages
 - - Cards, CardItem
 
+### EJ PRIO
+- Gör snyggare "Tack för ditt mail". Nu är det en alert
+- Gör laddningsmeddelande för katt-bilden + lägg då till alt som bara syns ifall bilden ej kunde laddas.
+
+
+
+
 ### Rensa CSS + Bildmapparna
 - Se notion-dokument
-
-### Mail form
-När man trycker på MAILA MIG ska man komma till form med dessa inputs:
-
-- Mailadressen du önskar få svar till
-- Ditt mail
-
-- Knapp = Skicka
-
-- Svarsmeddelande = "Tack för mailet! Jag svarar så fort jag har möjlighet. /Karl"
-
-- Ev text i kursivt = "Om du vill skicka ett mer utförligt mail finns min mailadess på Kontakt-sidan"

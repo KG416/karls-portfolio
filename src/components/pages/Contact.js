@@ -1,4 +1,4 @@
-import '../../App.css';
+import './Contact.css';
 /* import Footer from '../Footer'; */
 
 export default function Contact() {

@@ -1,0 +1,75 @@
+.contact-container
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  height: 92vh;
+  align-items: center;
+  font-size: 3rem;
+}
+.contact-master {
+  background-image: url('/src/images/phone-happy-v78.jpg');
+  /* background-image: url('./images/phone-happy-v3.jpg'); */
+   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact-container * {
+   color: black;
+   text-decoration: none;
+}
+.contact-wrap {
+  margin-bottom: 40px;
+  width: 450px;
+  height: 100px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-wrap:hover {
+  background-color: rgb(255, 238, 200);
+}
+.contact-wrap > * {
+  display: flex;
+  align-items: center;
+}
+.mailh1 {
+  font-size: 120px;
+  margin-bottom: 100px;
+}
+.mailh2 {
+  font-size: 50px;
+}
+.contact-mail {
+  margin-bottom: 40px;
+}
+.contact-para {
+  font-size: 30px;
+}
+/* .contact-para:hover {
+  background-color: white;
+} */
+.contactIcon {
+  color: white;
+  font-size: 50px;
+}
+
+@media(max-width:960px){
+  .mailh1 {
+  font-size: 80px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+  .contact-wrap {
+    width: 90vw;
+  }
+  .contact-para {
+    font-size: 23px;
+  }
+  .mailh2 {
+  font-size: 30px;
+}
+}

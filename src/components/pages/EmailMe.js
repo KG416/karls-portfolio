@@ -26,21 +26,21 @@ export default function EmailMe() {
     alert('Tack för ditt mail! Jag återkommer så snart som möjligt till mailadressen du angav. /Karl')
   }
 
-  const thanksTestFunc = () => {
-    console.log('thanksTestFunc ran');
-    return (
-      <>
-
-      </>
-    )
-  }
+  /*  const thanksTestFunc = () => {
+     console.log('thanksTestFunc ran');
+     return (
+       <>
+ 
+       </>
+     )
+   } */
 
   return (<>
     <div className='mail-main'>
       {/* <div className='email-me-container'> */}
 
       <div className='mail-info'>
-        <button className='thanksTEST' onClick={thanksTestFunc}>Tack-TEST</button>
+        {/* <button className='thanksTEST' onClick={thanksTestFunc}>Tack-TEST</button> */}
         <h2>Tveka inte att skicka ett mail till mig</h2>
         <h3>Föredrar du copy+paste?</h3>
         <p>kallegunnarsson@hotmail.com</p>

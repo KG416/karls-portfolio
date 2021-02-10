@@ -9,9 +9,9 @@ function HeroSection() {
             <h1>Portfolio</h1>
             <h2>Karl Gunnarsson</h2>
             <img src="/images-public/bass-filter.JPG" alt="Karl" className="karl-face" />
-            <p className='hero-pres'>Jag är en webb-utvecklare som brinner för UX, design och musik.
+            {/* <p className='hero-pres'>Jag är en webb-utvecklare som brinner för UX, design och musik.
             </p>
-            <p className='hero-pres2'>Just nu studerar jag Front End Developer på kyh i Stockholm.</p>
+            <p className='hero-pres2'>Just nu studerar jag Front End Developer på kyh i Stockholm.</p> */}
 
             <div className='arrow-down-wrap'>
                 <a href="#cards-id" className='arrow-down'>

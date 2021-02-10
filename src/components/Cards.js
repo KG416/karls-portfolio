@@ -11,34 +11,36 @@ function Cards() {
 
             <CardItem
               src='/images-public/quire-tr6.jpg'
-              text='En simpel sida för att skapa, redigera och spara anteckningar. Gjord med några klasskompisar från kyh.'
-              label='HTML, CSS, JavaScript, Figma'
+              text='Här kan du skapa, redigera och spara anteckningar. Gjord tillsammans med några andra utvecklare.'
+              label='HTML, CSS, Figma, Javascript'
+              url='http://gutenberg-quire.surge.sh/'
             />
 
             <CardItem
               src='/images-public/aCaps4.jpg'
-              text='Se till att ha vässat quiz-kunskaperna om den efterlängtade "På Spåret-förfrågan" skulle dyka upp.'
-              label='HTML, CSS, JavaScript'
+              text='En quiz för att testa dina färdigheter inom Afrikansk geografi.'
+              label='HTML, CSS, Figma, Javascript'
+              url='http://acaps.surge.sh/'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='/images-public/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src='/images-public/slc-garage.jpg'
+              text='En enkel info-sida som lär dig grunderna i Local Storage.'
+              label='HTML, CSS, Figma, Javascript'
+              url='http://simplelc.surge.sh/'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              src='/images-public/bass-filter.JPG'
+              text='Portfoliosidan som du är inne på just nu har jag skapat med React.'
+              label='HTML, CSS, Figma, Javascript, React'
+              url='/'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src='/images-public/firebase-logo.jpg'
+              text='Mitt nästa projekt blir att lära mig om Firebase.'
+              label='Nästa projekt...'
+              url='https://firebase.google.com/'
             />
           </ul>
         </div>

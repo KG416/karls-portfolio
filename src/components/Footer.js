@@ -17,7 +17,7 @@ function Footer() {
         <a href="https://www.linkedin.com/in/karl-gunnarsson-2303251b6/" className="social-icon-link"> <i className='fab fa-linkedin' /> </a>
       </div>
 
-      <small className='website-rights'>Karl Gunnarsson © 2021</small>
+      <small className='website-rights'>Created with React by Karl Gunnarsson © 2021</small>
 
     </div>
   );

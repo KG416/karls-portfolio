@@ -13,6 +13,7 @@ https://github.com/briancodex/react-website-v1/tree/starter
 - Skriv klart redogörelsen
 - Gör mail-me responsiv
 
+- Ta bort FetchData 1 lr 2
 - Gör klart aCaps, surga och länka från denna sida.
 - Surga Simple Local Storage och länka från denna sida.
 
@@ -22,10 +23,6 @@ https://github.com/briancodex/react-website-v1/tree/starter
 
 ### EJ PRIO
 - Gör snyggare "Tack för ditt mail". Nu är det en alert
-- Gör laddningsmeddelande för katt-bilden + lägg då till alt som bara syns ifall bilden ej kunde laddas.
-
-
-
 
 ### Rensa CSS + Bildmapparna
 - Se notion-dokument

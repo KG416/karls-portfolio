@@ -49,14 +49,14 @@ export default function EmailMe() {
       <form onSubmit={sendEmail} className='mail-form'>
         <h1>Maila mig</h1>
 
-        <label>Ditt namn</label>
-        <input type="text" name="user_name" className='form-name' />
+        {/* <label>Ditt namn</label> */}
+        <input type="text" placeholder='Namn' name="user_name" className='form-name' />
 
-        <label>Din mailadress</label>
-        <input type="email" name="user_email" className='form-mail' />
+        {/* <label>Din mailadress</label> */}
+        <input type="email" placeholder='Mailadress' name="user_email" className='form-mail' />
 
-        <label>Meddelande</label>
-        <textarea name="user_message" className='form-message' />
+        {/* <label>Meddelande</label> */}
+        <textarea name="user_message" placeholder='Meddelande' className='form-message' />
 
         <input type="submit" value="SKICKA" className='form-send' />
       </form>

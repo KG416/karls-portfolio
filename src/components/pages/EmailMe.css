@@ -3,7 +3,7 @@
 MAIN CONTAINER 
 ==================*/
 .mail-main {
-  background-image: url('/src/images/trees-dark.png');
+  background-image: linear-gradient(rgb(33, 33, 33), rgb(53, 53, 53));
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -70,6 +70,7 @@ MAIL WRAP
     outline: none;
 }
 .form-name, .form-mail {
+    background-color: rgb(206, 206, 206);
     align-self: flex-start;
     color: black;
     height: 40px;
@@ -81,6 +82,7 @@ MAIL WRAP
     margin-bottom: 20px;
 }
 .form-message {
+    background-color: rgb(206, 206, 206);
     align-self: flex-start;
     color: black;
     height: 200px;

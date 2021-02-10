@@ -9,7 +9,7 @@ https://github.com/briancodex/react-website-v1/tree/starter
 - Skriv klart redogörelsen
 
 ### EJ PRIO
-- Gör snyggare "Tack för ditt mail". Nu är det en alert
+- Gör snyggare "Tack för ditt mail". Nu är det en alert.
 
 ### Rensa CSS + Bildmapparna
 - Se notion-dokument

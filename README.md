@@ -1,6 +1,8 @@
 # Karl Gunnarssons Portfolio
 
-<!-- Maybe add logo here later -->
+![Logo](/src/images/karl-logo2.jpg)
+
+[Link to website](https://karlsportfolio.surge.sh/)
 
 ## Created by
 

@@ -8,7 +8,6 @@ https://www.youtube.com/watch?v=NgWGllOjkbs
 import './EmailMe.css'
 import emailjs from 'emailjs-com'
 import Footer from '../Footer'
-import FetchData2 from '../FetchData2'
 /* import ThankYouForMail from './ThankYouForMail' */
 
 export default function EmailMe() {
@@ -16,6 +15,9 @@ export default function EmailMe() {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    /*  if (nameInput.value === '' || messageInput.value === '' || emailInput.value) {
+       alert('Vänligen skriv namn, mailadress och meddelande innan du skickar.')
+     } else { */
     emailjs.sendForm('service_x7s5hgx', 'template_ak4ptsg', e.target, 'user_2uSb1fHmE9hpcwOQVXy5f')
       .then((result) => {
         console.log(result.text);
@@ -24,6 +26,7 @@ export default function EmailMe() {
       });
     e.target.reset()
     alert('Tack för ditt mail! Jag återkommer så snart som möjligt till mailadressen du angav. /Karl')
+    /*    } */
   }
 
   /*  const thanksTestFunc = () => {
@@ -36,40 +39,32 @@ export default function EmailMe() {
    } */
 
   return (<>
-    <div className='mail-main'>
-      {/* <div className='email-me-container'> */}
+    <div className='mail-wrapper'>
+      <h1 className='email-me-h1'>Maila mig</h1>
 
-      <div className='mail-info'>
-        {/* <button className='thanksTEST' onClick={thanksTestFunc}>Tack-TEST</button> */}
-        <h2>Tveka inte att skicka ett mail till mig</h2>
-        <h3>Föredrar du copy+paste?</h3>
-        <p>kallegunnarsson@hotmail.com</p>
-      </div>
+      <div className='mail-main'>
 
-      <form onSubmit={sendEmail} className='mail-form'>
-        <h1>Maila mig</h1>
+        <div className='mail-info'>
+          {/* <button className='thanksTEST' onClick={thanksTestFunc}>Tack-TEST</button> */}
+          <h2>Tveka inte att skicka ett mail till mig</h2>
+          <h3>Föredrar du copy+paste?</h3>
+          <p>kallegunnarsson@hotmail.com</p>
+        </div>
 
-        {/* <label>Ditt namn</label> */}
-        <input type="text" placeholder='Namn' name="user_name" className='form-name' />
+        <form className='mail-form' onSubmit={sendEmail}>
+          {/* <label>Ditt namn</label> */}
+          <input type="text" placeholder='Namn' name="user_name" className='form-name' />
 
-        {/* <label>Din mailadress</label> */}
-        <input type="email" placeholder='Mailadress' name="user_email" className='form-mail' />
+          {/* <label>Din mailadress</label> */}
+          <input type="email" placeholder='Mailadress' name="user_email" className='form-mail' />
 
-        {/* <label>Meddelande</label> */}
-        <textarea name="user_message" placeholder='Meddelande' className='form-message' />
+          {/* <label>Meddelande</label> */}
+          <textarea name="user_message" placeholder='Meddelande' className='form-message' />
 
-        <input type="submit" value="SKICKA" className='form-send' />
-      </form>
-
-      <div className='cat-wrap'>
-        <h2 className='cat-h2'>Dagens katt</h2>
-        {/* <FetchData /> */}
-        <FetchData2 />
+          <input type="submit" value="SKICKA" className='form-send' />
+        </form>
 
       </div>
-
-      {/*   </div> */}
-
     </div>
     <Footer />
   </>)

@@ -10,8 +10,7 @@
 }
 .contact-master {
   background-image: url('/src/images/phone-happy-v78.jpg');
-  /* background-image: url('./images/phone-happy-v3.jpg'); */
-   background-position: center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -59,9 +58,9 @@
 
 @media(max-width:960px){
   .mailh1 {
-  font-size: 80px;
-  margin-top: 30px;
-  margin-bottom: 70px;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
   .contact-wrap {
     width: 90vw;
@@ -70,6 +69,6 @@
     font-size: 23px;
   }
   .mailh2 {
-  font-size: 30px;
+  font-size: 20px;
 }
 }

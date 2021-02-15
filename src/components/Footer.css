@@ -56,10 +56,10 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 10px;
-    height: 30vh;
+    height: 50vh;
   }
   .footer-container > * {
-  margin: 0px;
+  margin: 7vh;
   height: 80px;
   }
   .social-logo {
